@@ -10,21 +10,20 @@
 header{
     background-color: black;
     color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    align-items: center;
-}
+    text-align: center;   
+    }
 
 header h1{
     font-family: "Passion One", sans-serif;
     font-size: 128px;
+    font-variant: small-caps;
+    padding-top: 20px;    
 }
 
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+    padding-bottom: 20px;
 }
 
 header a{
@@ -48,23 +47,24 @@ header a:hover{
     
 }
 
-#flor{
-    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+div#img1{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
     height: 600px;
     padding: 20px;
 }
 
-.transparente{
+.imagem p{
     background-color: rgba(0, 0, 0, 0.427);
     color: white;
-    width: 300px;
-    height: 100%;
+    width: 300px;   
     font-family: "Sriracha", cursive;
     font-size: 44px; 
 }
 
-#livro{
+div#img2{
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
     height: 600px;
     padding: 30px;
 }
