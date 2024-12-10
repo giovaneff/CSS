@@ -24,6 +24,11 @@
             background-color: rgb(172, 203, 222);
             color: black;
         }
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
         
     </style>
 </head>
@@ -42,8 +47,8 @@
         <table>
             <THead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 130px;">População</th>
                 </tr>
             </THead>
             <tbody>
@@ -158,10 +163,11 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total população</th>
+                    <th scope="row">Total população</th>
                     <td class="num"><strong>212 583 720</strong></td>
                 </tr>
             </tfoot>
+            <caption>População por Estado</caption>
         </table>
 </body>
 </html>
