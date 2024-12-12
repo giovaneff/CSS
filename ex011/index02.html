@@ -9,6 +9,7 @@
             font-family: 'Courier New', Courier, monospace;
             border-collapse: collapse;
             width:700px;
+            position: relative;
         }
         td, th{
             border: 1px black solid;
@@ -35,6 +36,13 @@
         }
         tbody> tr:nth-child(2n){
             background-color: darkgrey;
+        }
+
+        thead> tr> th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(70, 72, 68);
+            
         }
         
     </style>
